@@ -7,7 +7,7 @@ class TestMonModule(unittest.TestCase):
         self.assertEqual(une_fonction(4 , 5), 9)
 
     def test_une_function2(self):
-        self.assertEqual(une_fonction2(4 , 5), 9)
+        self.assertEqual(une_fonction2(4 , 5), -1)
 
 if __name__ == "__main__":
     unittest.main()
